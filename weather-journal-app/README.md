@@ -1,10 +1,44 @@
-# Weather-Journal Ap Project
+# Weather-Journal App Project
 
 ## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+This an asynchronous web app that uses Web API and user data to dynamically update the UI. The html and css was provided as template from
 
-## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
+## Project-Rubric
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+The project is created in accordance to the following specifications:
+
+* [Nanodegree Project Rubric Guide](https://review.udacity.com/#!/rubrics/2655/view/)
+
+## File-Structure
+
+The project files are structured as follows:
+
+ * [website](./website)
+   * [app.js](./website/app.js)
+   * [index.html](./website/index.html)
+   * [style.css](./website/style.css)
+ * [server.js](./server.js)
+ * [README.md](./README.md)
+
+## Getting Started
+For the installation of the application it is necessary that Node.JS is installed on your computer.
+
+### Installing
+At the root of the application install the dependencies
+
+```
+npm install
+```
+
+Initialize the server
+
+```
+node server.js
+```
+
+Access the localhost on port 8000
+
+```
+http://localhost:8000/
+```
+
